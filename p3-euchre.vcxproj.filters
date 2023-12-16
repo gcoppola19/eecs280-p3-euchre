@@ -15,8 +15,69 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="p3-euchre.cpp">
+    <ClCompile Include="Card_public_test.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Pack_public_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player_public_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="euchre.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Card.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Card_tests.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="euchre_test00.out.correct">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="euchre_test01.out.correct">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="euchre_test50.in">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="euchre_test50.out.correct">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Makefile">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="pack.in">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Pack_tests.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="Player_tests.cpp">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Card.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pack.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unit_test_framework.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

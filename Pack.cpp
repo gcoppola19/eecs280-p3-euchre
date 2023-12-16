@@ -9,6 +9,7 @@ using namespace std;
 
 Pack::Pack()
 {
+	next = 0;
 	int i = 0;
 	for (int s = SPADES; s <= DIAMONDS; ++s) {
 		for (int r = NINE; r <= ACE; ++r)
@@ -20,6 +21,7 @@ Pack::Pack()
 
 Pack::Pack(std::istream& pack_input)
 {	
+	next = 0;
 	for (int i = 0; i < PACK_SIZE; ++i)
 	{
 		pack_input >> cards[i];

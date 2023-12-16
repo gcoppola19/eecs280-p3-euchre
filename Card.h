@@ -98,7 +98,7 @@ public:
   //EFFECTS Returns true if card is the Jack of the next suit
   bool is_left_bower(Suit trump) const;
 
-  //EFFECTS Returns true if the card is a trump card.  All cards of the trump
+  //EFFECTS ReturnsS true if the card is a trump card.  All cards of the trump
   // suit are trump cards.  The left bower is also a trump card.
   bool is_trump(Suit trump) const;
 
